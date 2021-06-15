@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Movie_App.js">
+    <title>Movies App</title>
+
+</head>
+
+<body>
+    <nav class="purple">
+        <div class="nav-wrapper">
+
+            <a href="/app" class="brand-logo center">Movies App</a>
+
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <nav class="purple">
+            <div class="nav-wrapper"></div>
+        </nav>
+
+        <div id="movieList" class="collection">
+
+        </div>
+
+    </ul>
+
+    <div class="container row" id="content">
+
+        <style>
+            aside {
+                overflow-y: scroll;
+            }
+
+            body {
+                padding-left: 300px;
+            }
+
+            @media only screen and (max-width : 992px) {
+                body {
+                    padding-left: 0;
+                }
+            }
+        </style>
+
+        <main class="col">
+
+            <div class="row">
+                <h1 id="movieTitle"></h1>
+            </div>
+
+            <div class="row" id="movieDetail">
+                <h1>Select A Movie</h1>
+            </div>
+
+
+
+        </main>
+        <script src="movie_app.js">
+        </script>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
