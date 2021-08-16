@@ -15,7 +15,7 @@
 ## Overview
 The Movie app is a simple website that allows users to select a movie title and view the details of the movie
 
- Link to Movie app website:  
+ Link to Movie app website:  https://movieapp-tamika-ramkissoon.netlify.app/
 * The website is fully responsive to all devices
 * Search engine optimization
 * Web performance optimization - site speed
